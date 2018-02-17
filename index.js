@@ -5,11 +5,16 @@ function printBadger(array){
   }
 }
 function tailsNeverFails(){
-  counter= 1 
+  counter= 1
   while (Math.random() >= 0.5 == true){
     result= "You got" + counter + " tails in a row!"
-    
   }
-  
-  
+  if (result != nil){
+    return result
+  }
+  else {
+    return "You got 0 tails in a row!"
+  }
+
+
 }
