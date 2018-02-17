@@ -3,6 +3,7 @@ function printBadges(array){
   for (let i=0; i < array.length; i++){
     console.log ("LOG: Welcome " + array[i] + "! You are employee #" + i + ".")
   }
+  return array
 }
 function tailsNeverFails(){
   counter= 1
