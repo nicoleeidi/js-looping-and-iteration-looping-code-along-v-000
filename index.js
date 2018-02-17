@@ -1,5 +1,5 @@
 // Code your solutions in this file
-function printBadges(array){
+function printBadges(array=['Ada', 'Brendan', 'Ali']){
   for (let i=0; i < array.length; i++){
     console.log ("LOG: Welcome " + array[i] + "! You are employee #" + i + ".")
   }
