@@ -1,7 +1,7 @@
 // Code your solutions in this file
 function printBadges(array){
   for (let i=0; i < array.length; i++){
-    console.log ("LOG: Welcome " + array[i] + "! You are employee #" + i + ".")
+    console.log ("LOG: Welcome " + array[i] + "! You are employee #" + i+1 + ".")
   }
   return array
 }
@@ -12,7 +12,7 @@ function tailsNeverFails(){
     counter ++
   }
   return "You got " + counter+ " tails in a row!"
-  
+
 
 
 }
