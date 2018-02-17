@@ -7,7 +7,7 @@ function printBadges(array=['Ada', 'Brendan', 'Ali']){
 function tailsNeverFails(){
   counter= 1
   while (Math.random() >= 0.5 == true){
-    result= "You got" + counter + " tails in a row!"
+    result= "You got " + counter + " tails in a row!"
   }
   if (result != null){
     return result
