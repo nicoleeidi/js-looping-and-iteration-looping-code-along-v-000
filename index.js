@@ -8,6 +8,7 @@ function tailsNeverFails(){
   counter= 1
   while (Math.random() >= 0.5 == true){
     result= "You got " + counter + " tails in a row!"
+    counter ++
   }
   if (result != null){
     return result
